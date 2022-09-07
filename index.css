@@ -1,0 +1,189 @@
+*{
+    text-transform: capitalize;
+}
+
+
+.jumbotron{
+    background-repeat: repeat;
+    height: 400px;
+    background-size: cover;    
+    background-image: url(asset/maximalfocus-eZWGK5sIiBM-unsplash.jpg);
+}
+
+.jumbotron .row{
+    
+    text-align: center;
+    color: white;
+}
+
+#f-sevice .border{
+    transition: ease-in-out 1s;
+}
+#f-sevice .border:hover{
+        box-shadow: 3px 3px 2px   lightblue;
+        transform: translateY(-50px);
+}
+
+
+
+#crad{
+    margin-top: 100px;
+}
+
+#crad h2{
+    font-weight: 500;
+}
+
+#crad .row {
+    text-align: center;
+    
+}
+#crad .border{
+    transition: ease-in-out 1s;
+    
+}
+
+#crad .border:hover{
+    background-color: rgb(7, 7, 92);
+    color: white;
+    font-weight: 500
+}
+#crad .btn{
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    transition: 1s ease-in-out;
+}
+
+#crad .btn:hover{
+    width: 60px;
+}
+
+#icon{
+    margin-left: 200px;
+}
+
+#icon .card{
+    transition: ease-in-out .8s;
+}
+
+#icon  .card:hover{
+    background-color: darkgray;
+    color: white;
+    font-weight: 900;
+}
+
+footer{
+    height: 170px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+footer .image a img:hover{    
+    transition: 2s ease-in-out;
+    transform: translateY(-10px);
+
+
+}
+
+
+@media screen and (max-width: 567px) {
+    #icon img{
+        width: 70px;    
+    }
+    
+}
+
+@media screen and (max-width: 567px) {
+    #icon {
+        margin-left: 90px;     
+    }
+    
+}
+@media screen and (max-width: 567px) {
+    #icon h2 {
+        margin-right: 78px;     
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:567px) {
+    #home .navbar-toggler{
+        margin-right: -45px;
+    }
+    
+}
+
+@media screen and (max-width:567px) {
+    #crad {
+        margin-left: 30px;
+        justify-content: center;
+        width: 400px;
+        
+    }
+    
+}
+
+@media screen and (max-width:567px ) {
+    iframe{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:567px) {
+    .jumbotron{
+        width:450px;
+    }
+    
+}
+
+@media screen and (max-width:567px) {
+    footer{
+        width:450px;
+        height: 200px;
+        
+    }
+    
+}
+
+@media screen and (max-width:567px) {
+    #f-sevice .border:hover{
+        
+        box-shadow: 5px 4px 2px   lightblue;
+        margin-top: 20px;
+        transform: translateY(-10px);
+}
+        
+    
+    
+}
+@media screen and (max-width:567px) {
+    #f-sevice {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #icon h2{
+        margin-right: 100px;
+
+        
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    #icon .card{
+        margin-left: -100px;
+        justify-content: center;
+    }
+}
